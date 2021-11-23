@@ -522,9 +522,8 @@ while ((askAgain = true)) {
   }
 }
 
-/*
+let uncheckUserName = true;
 
-//let uncheckUserName = true;
 function allLetter(userName) {
   console.log("allLetter : " + userName);
   let letters = /^[a-zA-Z]{1}/;
@@ -553,4 +552,3 @@ while (uncheckUserName) {
     break;
   }
 }
-*/
